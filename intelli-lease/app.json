@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "intelli-lease",
+    "slug": "intelli-lease",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyCUV1eW53hM48cARu8laxgwMVyUYmcHOqQ"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCUV1eW53hM48cARu8laxgwMVyUYmcHOqQ"
+        }
+      },
+      "package": "com.intellilease.intellilease"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1abc93bd-7cea-4d45-95c6-983b64ccfad0"
+      }
+    }
+  }
+}
